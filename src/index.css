@@ -1,0 +1,155 @@
+@import url('https://fonts.googleapis.com/css2?family=Outfit:wght@100..900&display=swap');
+
+:root {
+  --bg: #fafafa;
+  --dbg: #f3f2f2;
+  --ac: #2a2c3e;
+  --nm: #9c87fc;
+  --shadow: rgba(130, 181, 253, 0.4);
+  --bl: #1677ff;
+}
+
+body {
+  margin: 0;
+  padding: 0;
+  background: var(--dbg);
+}
+
+* {
+  font-family: "Outfit", sans-serif;
+}
+
+.chat .adm-list {
+  flex: 1;
+  overflow-y: auto;
+  margin-bottom: 8px;
+}
+
+.chatinput {
+  flex: 1;
+}
+
+.chatinputcont {
+  border-radius: 10px;
+  padding: 7px 5px;
+  background-color: var(--bg);
+  box-shadow: 2px 2px 2px 1px var(--shadow);
+  margin-bottom: 12px;
+}
+.bar{
+  display: flex;
+}
+.bot {
+  padding: 5px;
+  background-color: var(--dbg);
+  border-radius: 5px;
+}
+.key{
+  background-color: var(--dbg);
+  padding: 10px;
+  border-radius: 5px;
+}
+.user {
+  padding: 5px;
+  background-color: hsl(215, 100%, 94%);
+  border-radius: 5px;
+}
+.filler{
+  margin-bottom:110px;
+}
+.msgText {
+  background-color: hsl(215, 100%, 84%);
+}
+
+.chat {
+  display: flex;
+  flex-direction: column;
+  height: 90vh;
+  padding: 16px
+}
+
+.go {
+  padding: 1px;
+  width: 100%;
+}
+
+.started-card h3 {
+  margin-top: 0;
+
+}
+
+.chatclear {
+  height: fit-content;
+}
+
+.counter {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 20px;
+}
+
+.chathead {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.todoinp {
+  margin-bottom: 20px;
+}
+
+.started-card {
+  border-style: solid;
+  border-radius: 10px;
+  border-width: 2px;
+  padding: 7px;
+  margin: 5px 0px;
+  background-color: var(--dbg);
+  border-color: var(--bl);
+}
+
+.p {
+  background-color: var(--bg);
+  padding: 15px;
+  font-size: 1.1em;
+  margin: 10px;
+  box-shadow: 2px 2px 2px 1px var(--shadow);
+  border-radius: 10px;
+  width: 83%;
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.get-started {
+  margin-top: 40px;
+}
+
+.title {
+  margin: 5px;
+  font-size: 2.6em;
+  text-align: center;
+}
+
+
+.home {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  margin-top: 50px;
+}
+
+.nav-bar {
+  position: fixed;
+  z-index: 100;
+  bottom: 0;
+  right: 0px;
+  width: 100%;
+  background-color: var(--bg);
+  color: white;
+  border-top-right-radius: 10px;
+  border-top-left-radius: 10px;
+  padding-top: 10px;
+  padding-bottom: 5px;
+}
