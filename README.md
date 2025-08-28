@@ -2,12 +2,7 @@
 ## Inspiration
 My inspiration for this app came from the lack of a centralized hub that makes it convenient to address and solve the problems I was facing.
 ## What it does
-It is an all in one tool that can help you: 
--Share your problems with an inbuilt AI chatbot
--Manage your homework and other tasks efficiently with a to do list
--Study effectively with a pomodoro timer
--Calculate your BMI and view a visualization to compare it.
--Track and view your Sleep And Water intake across a month on a bar chart
+It is an all in one tool that can help you share your problems with an inbuilt AI chatbot, Manage your homework and other tasks efficiently with a to do list, Study effectively with a pomodoro timer, Calculate your BMI and view a visualization to compare it, Track and view your Sleep And Water intake across a month on a bar chart
 ## How I built it
 I developed an AI powered application using React for the frontend and Python as a backend proxy for my AI bot. The backend supports multiple options, including cloud-hosted models like Gemini or local models run via Ollama. For the UI and other aspects in my App, I used Ant Design Mobile, and Recharts for data visualization. Finally, to save user data privately, I used indexDB instead of an online database.
 ## Challenges I ran into
